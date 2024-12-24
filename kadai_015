@@ -35,3 +35,13 @@
     #basic p.child {
          font-weight: bold;    
     }
+
+    
+ 
+    }   
+       
+
+     /* style.css */
+    #basic p.child {
+         font-weight: bold;    
+    }
