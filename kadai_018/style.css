@@ -1,0 +1,75 @@
+
+#top {
+    width: 800px;
+    background-color: #dcc9f4;
+    margin: 20px auto;
+    display: block;
+    text-align: center; /*子要素を中央に配置します*/
+}
+
+.top-child {
+    display: inline-block;
+    width: 20%;
+    background-color: #ffd9df; 
+    
+}
+
+#middle {
+    width: 800px;
+    height: 800px;
+    background-color: #ffd9df;
+    margin: 20px auto;
+    position: relative; /* 親要素を位置指定の基準にする */
+}
+
+#middle-child01, #middle-child02, #middle-child03 {
+    position: absolute; /* 親要素に対して位置を指定 */
+    width: 200px;
+    height: 200px;
+    background-color: #87ceeb;
+}
+
+#middle-child01 {
+    top: 100px; /*親要素の上からの距離 */
+    left: 100px; /*親要素の左からの距離 */
+}    
+#middle-child02 {
+    top: 300px;
+    left: 300px;
+}
+#middle-child03 {
+    top: 500px;
+    left: 500px;
+}      
+
+#bottom {
+    width: 800px;
+    height: 300px;
+    position: relative; 
+    margin: 0 auto;
+    background-color: #87ceeb;
+}
+#bottom-child01, bottom-child02, bottom-child03 {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    background-color: #e5dcf0;
+}
+#bottom-child01 {
+    top: 0;
+    left: 0;
+}
+  #bottom-child02 {
+    top: 100px;
+    left: 200px;
+}
+#bottom-child03 {
+    top: 200px;
+    left: 400px;
+}
+
+
+
+
+
+
